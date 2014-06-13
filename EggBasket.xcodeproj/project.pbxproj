@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B106B5194BA65700655986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B4194BA65700655986 /* Foundation.framework */; };
+		B9B106B7194BA65700655986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B6194BA65700655986 /* CoreGraphics.framework */; };
+		B9B106B9194BA65700655986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B8194BA65700655986 /* UIKit.framework */; };
+		B9B106BB194BA65700655986 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106BA194BA65700655986 /* CoreData.framework */; };
+		B9B106C1194BA65700655986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B106BF194BA65700655986 /* InfoPlist.strings */; };
+		B9B106C3194BA65700655986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B106C2194BA65700655986 /* main.m */; };
+		B9B106C7194BA65700655986 /* EGGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B106C6194BA65700655986 /* EGGAppDelegate.m */; };
+		B9B106CA194BA65700655986 /* EggBasket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9B106C8194BA65700655986 /* EggBasket.xcdatamodeld */; };
+		B9B106CC194BA65700655986 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B106CB194BA65700655986 /* Images.xcassets */; };
+		B9B106D3194BA65700655986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106D2194BA65700655986 /* XCTest.framework */; };
+		B9B106D4194BA65700655986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B4194BA65700655986 /* Foundation.framework */; };
+		B9B106D5194BA65700655986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B8194BA65700655986 /* UIKit.framework */; };
+		B9B106D6194BA65700655986 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106BA194BA65700655986 /* CoreData.framework */; };
+		B9B106DE194BA65700655986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B106DC194BA65700655986 /* InfoPlist.strings */; };
+		B9B106E0194BA65700655986 /* EggBasketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B106DF194BA65700655986 /* EggBasketTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B106D7194BA65700655986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B106A9194BA65700655986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B106B0194BA65700655986;
+			remoteInfo = EggBasket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9B106B1194BA65700655986 /* EggBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B106B4194BA65700655986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9B106B6194BA65700655986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9B106B8194BA65700655986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9B106BA194BA65700655986 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B9B106BE194BA65700655986 /* EggBasket-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggBasket-Info.plist"; sourceTree = "<group>"; };
+		B9B106C0194BA65700655986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9B106C2194BA65700655986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9B106C4194BA65700655986 /* EggBasket-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EggBasket-Prefix.pch"; sourceTree = "<group>"; };
+		B9B106C5194BA65700655986 /* EGGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGGAppDelegate.h; sourceTree = "<group>"; };
+		B9B106C6194BA65700655986 /* EGGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGGAppDelegate.m; sourceTree = "<group>"; };
+		B9B106C9194BA65700655986 /* EggBasket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EggBasket.xcdatamodel; sourceTree = "<group>"; };
+		B9B106CB194BA65700655986 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9B106D1194BA65700655986 /* EggBasketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggBasketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B106D2194BA65700655986 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9B106DB194BA65700655986 /* EggBasketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggBasketTests-Info.plist"; sourceTree = "<group>"; };
+		B9B106DD194BA65700655986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9B106DF194BA65700655986 /* EggBasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggBasketTests.m; sourceTree = "<group>"; };
+		B9B106FA194BA75D00655986 /* EggBasket copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EggBasket copy-Info.plist"; path = "/Users/pswagerty/Development/github/saltracer/eggbasket/ios/EggBasket/EggBasket copy-Info.plist"; sourceTree = "<absolute>"; };
+		B9B1070C194BA76C00655986 /* EggBasketBeta copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EggBasketBeta copy-Info.plist"; path = "/Users/pswagerty/Development/github/saltracer/eggbasket/ios/EggBasket/EggBasketBeta copy-Info.plist"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B106AE194BA65700655986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106B7194BA65700655986 /* CoreGraphics.framework in Frameworks */,
+				B9B106BB194BA65700655986 /* CoreData.framework in Frameworks */,
+				B9B106B9194BA65700655986 /* UIKit.framework in Frameworks */,
+				B9B106B5194BA65700655986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B106CE194BA65700655986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106D3194BA65700655986 /* XCTest.framework in Frameworks */,
+				B9B106D6194BA65700655986 /* CoreData.framework in Frameworks */,
+				B9B106D5194BA65700655986 /* UIKit.framework in Frameworks */,
+				B9B106D4194BA65700655986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B106A8194BA65700655986 = {
+			isa = PBXGroup;
+			children = (
+				B9B106BC194BA65700655986 /* EggBasket */,
+				B9B106D9194BA65700655986 /* EggBasketTests */,
+				B9B106B3194BA65700655986 /* Frameworks */,
+				B9B106B2194BA65700655986 /* Products */,
+				B9B106FA194BA75D00655986 /* EggBasket copy-Info.plist */,
+				B9B1070C194BA76C00655986 /* EggBasketBeta copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B106B2194BA65700655986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106B1194BA65700655986 /* EggBasket.app */,
+				B9B106D1194BA65700655986 /* EggBasketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B106B3194BA65700655986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106B4194BA65700655986 /* Foundation.framework */,
+				B9B106B6194BA65700655986 /* CoreGraphics.framework */,
+				B9B106B8194BA65700655986 /* UIKit.framework */,
+				B9B106BA194BA65700655986 /* CoreData.framework */,
+				B9B106D2194BA65700655986 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B106BC194BA65700655986 /* EggBasket */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106C5194BA65700655986 /* EGGAppDelegate.h */,
+				B9B106C6194BA65700655986 /* EGGAppDelegate.m */,
+				B9B106CB194BA65700655986 /* Images.xcassets */,
+				B9B106C8194BA65700655986 /* EggBasket.xcdatamodeld */,
+				B9B106BD194BA65700655986 /* Supporting Files */,
+			);
+			path = EggBasket;
+			sourceTree = "<group>";
+		};
+		B9B106BD194BA65700655986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106BE194BA65700655986 /* EggBasket-Info.plist */,
+				B9B106BF194BA65700655986 /* InfoPlist.strings */,
+				B9B106C2194BA65700655986 /* main.m */,
+				B9B106C4194BA65700655986 /* EggBasket-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9B106D9194BA65700655986 /* EggBasketTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106DF194BA65700655986 /* EggBasketTests.m */,
+				B9B106DA194BA65700655986 /* Supporting Files */,
+			);
+			path = EggBasketTests;
+			sourceTree = "<group>";
+		};
+		B9B106DA194BA65700655986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B106DB194BA65700655986 /* EggBasketTests-Info.plist */,
+				B9B106DC194BA65700655986 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B106B0194BA65700655986 /* EggBasket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B106E3194BA65700655986 /* Build configuration list for PBXNativeTarget "EggBasket" */;
+			buildPhases = (
+				B9B106AD194BA65700655986 /* Sources */,
+				B9B106AE194BA65700655986 /* Frameworks */,
+				B9B106AF194BA65700655986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EggBasket;
+			productName = EggBasket;
+			productReference = B9B106B1194BA65700655986 /* EggBasket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B106D0194BA65700655986 /* EggBasketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B106E6194BA65700655986 /* Build configuration list for PBXNativeTarget "EggBasketTests" */;
+			buildPhases = (
+				B9B106CD194BA65700655986 /* Sources */,
+				B9B106CE194BA65700655986 /* Frameworks */,
+				B9B106CF194BA65700655986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B106D8194BA65700655986 /* PBXTargetDependency */,
+			);
+			name = EggBasketTests;
+			productName = EggBasketTests;
+			productReference = B9B106D1194BA65700655986 /* EggBasketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B106A9194BA65700655986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EGG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.backyardeggbasket;
+				TargetAttributes = {
+					B9B106D0194BA65700655986 = {
+						TestTargetID = B9B106B0194BA65700655986;
+					};
+				};
+			};
+			buildConfigurationList = B9B106AC194BA65700655986 /* Build configuration list for PBXProject "EggBasket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9B106A8194BA65700655986;
+			productRefGroup = B9B106B2194BA65700655986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B106B0194BA65700655986 /* EggBasket */,
+				B9B106D0194BA65700655986 /* EggBasketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B106AF194BA65700655986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106C1194BA65700655986 /* InfoPlist.strings in Resources */,
+				B9B106CC194BA65700655986 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B106CF194BA65700655986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106DE194BA65700655986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B106AD194BA65700655986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106C7194BA65700655986 /* EGGAppDelegate.m in Sources */,
+				B9B106C3194BA65700655986 /* main.m in Sources */,
+				B9B106CA194BA65700655986 /* EggBasket.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B106CD194BA65700655986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B106E0194BA65700655986 /* EggBasketTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B106D8194BA65700655986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B106B0194BA65700655986 /* EggBasket */;
+			targetProxy = B9B106D7194BA65700655986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9B106BF194BA65700655986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B106C0194BA65700655986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9B106DC194BA65700655986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B106DD194BA65700655986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B106E1194BA65700655986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"ROOT_URL='@\"eggbasket-staging.herokuapp.com\"'",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9B106E2194BA65700655986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "ROOT_URL='@\"eggbasket-production.herokuapp.com\"'";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B106E4194BA65700655986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"ROOT_URL='@\"eggbasket-staging.herokuapp.com\"'",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EggBasket/EggBasket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9B106E5194BA65700655986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "ROOT_URL='@\"eggbasket-production.herokuapp.com\"'";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "ROOT_URL='@\"eggbasket-production.herokuapp.com\"'";
+				INFOPLIST_FILE = "EggBasket/EggBasket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9B106E7194BA65700655986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EggBasket.app/EggBasket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EggBasketTests/EggBasketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B9B106E8194BA65700655986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EggBasket.app/EggBasket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				INFOPLIST_FILE = "EggBasketTests/EggBasketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		B9B1070D194BB53C00655986 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "ROOT_URL='@\"eggbasket-production.herokuapp.com\"'";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		B9B1070E194BB53C00655986 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "ROOT_URL='@\"eggbasket-production.herokuapp.com\"'";
+				INFOPLIST_FILE = "EggBasket/EggBasket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Beta;
+		};
+		B9B1070F194BB53C00655986 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EggBasket.app/EggBasket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				INFOPLIST_FILE = "EggBasketTests/EggBasketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Beta;
+		};
+		B9B10710194BB54500655986 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "ROOT_URL='@\"eggbasket-staging.herokuapp.com\"'";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Alpha;
+		};
+		B9B10711194BB54500655986 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "ROOT_URL='@\"eggbasket-staging.herokuapp.com\"'";
+				INFOPLIST_FILE = "EggBasket/EggBasket-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Alpha;
+		};
+		B9B10712194BB54500655986 /* Alpha */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EggBasket.app/EggBasket";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EggBasket/EggBasket-Prefix.pch";
+				INFOPLIST_FILE = "EggBasketTests/EggBasketTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Alpha;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B106AC194BA65700655986 /* Build configuration list for PBXProject "EggBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B106E1194BA65700655986 /* Debug */,
+				B9B106E2194BA65700655986 /* Release */,
+				B9B10710194BB54500655986 /* Alpha */,
+				B9B1070D194BB53C00655986 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B106E3194BA65700655986 /* Build configuration list for PBXNativeTarget "EggBasket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B106E4194BA65700655986 /* Debug */,
+				B9B106E5194BA65700655986 /* Release */,
+				B9B10711194BB54500655986 /* Alpha */,
+				B9B1070E194BB53C00655986 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B9B106E6194BA65700655986 /* Build configuration list for PBXNativeTarget "EggBasketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B106E7194BA65700655986 /* Debug */,
+				B9B106E8194BA65700655986 /* Release */,
+				B9B10712194BB54500655986 /* Alpha */,
+				B9B1070F194BB53C00655986 /* Beta */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9B106C8194BA65700655986 /* EggBasket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9B106C9194BA65700655986 /* EggBasket.xcdatamodel */,
+			);
+			currentVersion = B9B106C9194BA65700655986 /* EggBasket.xcdatamodel */;
+			path = EggBasket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9B106A9194BA65700655986 /* Project object */;
+}

@@ -53,8 +53,6 @@
 		B9B106DB194BA65700655986 /* EggBasketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EggBasketTests-Info.plist"; sourceTree = "<group>"; };
 		B9B106DD194BA65700655986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B9B106DF194BA65700655986 /* EggBasketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EggBasketTests.m; sourceTree = "<group>"; };
-		B9B106FA194BA75D00655986 /* EggBasket copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EggBasket copy-Info.plist"; path = "/Users/pswagerty/Development/github/saltracer/eggbasket/ios/EggBasket/EggBasket copy-Info.plist"; sourceTree = "<absolute>"; };
-		B9B1070C194BA76C00655986 /* EggBasketBeta copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EggBasketBeta copy-Info.plist"; path = "/Users/pswagerty/Development/github/saltracer/eggbasket/ios/EggBasket/EggBasketBeta copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +88,6 @@
 				B9B106D9194BA65700655986 /* EggBasketTests */,
 				B9B106B3194BA65700655986 /* Frameworks */,
 				B9B106B2194BA65700655986 /* Products */,
-				B9B106FA194BA75D00655986 /* EggBasket copy-Info.plist */,
-				B9B1070C194BA76C00655986 /* EggBasketBeta copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -607,6 +603,7 @@
 				B9B1070E194BB53C00655986 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B9B106E6194BA65700655986 /* Build configuration list for PBXNativeTarget "EggBasketTests" */ = {
 			isa = XCConfigurationList;
@@ -617,6 +614,7 @@
 				B9B1070F194BB53C00655986 /* Beta */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

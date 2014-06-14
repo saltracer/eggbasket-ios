@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2EEF9E37EFBA45B5A1D19C8A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C38490C60C640B29A61AED0 /* libPods.a */; };
 		8A6F0E005E9D49D08299331B /* libPods-EggBasketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC76FA06C9074097BC6CB6CB /* libPods-EggBasketTests.a */; };
+		B930FF6A194BC57D00D6C36B /* EGGAddClutchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B930FF69194BC57D00D6C36B /* EGGAddClutchTableViewController.m */; };
 		B9B106B5194BA65700655986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B4194BA65700655986 /* Foundation.framework */; };
 		B9B106B7194BA65700655986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B6194BA65700655986 /* CoreGraphics.framework */; };
 		B9B106B9194BA65700655986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B106B8194BA65700655986 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 		381E559F9F884599B563D858 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		4C38490C60C640B29A61AED0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5530AE86FDEB4E39AA21EC23 /* Pods-EggBasketTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EggBasketTests.xcconfig"; path = "Pods/Pods-EggBasketTests.xcconfig"; sourceTree = "<group>"; };
+		B930FF68194BC57D00D6C36B /* EGGAddClutchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGGAddClutchTableViewController.h; path = ViewControllers/EGGAddClutchTableViewController.h; sourceTree = "<group>"; };
+		B930FF69194BC57D00D6C36B /* EGGAddClutchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGGAddClutchTableViewController.m; path = ViewControllers/EGGAddClutchTableViewController.m; sourceTree = "<group>"; };
 		B9B106B1194BA65700655986 /* EggBasket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggBasket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9B106B4194BA65700655986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9B106B6194BA65700655986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B930FF6B194BC5C900D6C36B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B930FF69194BC57D00D6C36B /* EGGAddClutchTableViewController.m */,
+				B930FF68194BC57D00D6C36B /* EGGAddClutchTableViewController.h */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		B9B106A8194BA65700655986 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +139,7 @@
 		B9B106BC194BA65700655986 /* EggBasket */ = {
 			isa = PBXGroup;
 			children = (
+				B930FF6B194BC5C900D6C36B /* ViewControllers */,
 				B9B106C5194BA65700655986 /* EGGAppDelegate.h */,
 				B9B106C6194BA65700655986 /* EGGAppDelegate.m */,
 				B9B106CB194BA65700655986 /* Images.xcassets */,
@@ -330,6 +343,7 @@
 			files = (
 				B9B106C7194BA65700655986 /* EGGAppDelegate.m in Sources */,
 				B9B106C3194BA65700655986 /* main.m in Sources */,
+				B930FF6A194BC57D00D6C36B /* EGGAddClutchTableViewController.m in Sources */,
 				B9B106CA194BA65700655986 /* EggBasket.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
